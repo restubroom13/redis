@@ -19,5 +19,5 @@ class RedisClient {
 }
 
 const redis = new RedisClient()
-redis.setCacheData("name", "max cavalera from brazil").then(console.log).catch(console.error)
+redis.setCacheData("name", "max cavalera from brazil hahaha").then(console.log).catch(console.error)
 redis.getCacheData("name").then(console.log).catch(console.error).finally(() => process.exit(0))
