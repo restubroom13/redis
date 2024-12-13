@@ -16,6 +16,21 @@ class RedisClient {
 	getCacheData(key) {
 		return this.config().get(key)
 	}
+
+	setCacheData(key, data) {
+		return this.config().set(key, data)
+	}
+
+	getCacheData(key) {
+		return this.config().get(key)
+	}
+	setCacheData(key, data) {
+		return this.config().set(key, data)
+	}
+
+	getCacheData(key) {
+		return this.config().get(key)
+	}
 }
 
 const redis = new RedisClient()
