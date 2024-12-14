@@ -5,25 +5,10 @@ class RedisClient {
 		return new Redis({
 			host: 'localhost',
 			port: 6379,
-			// tls: true
+			tls: false
 		})
 	}
 
-	setCacheData(key, data) {
-		return this.config().set(key, data)
-	}
-
-	getCacheData(key) {
-		return this.config().get(key)
-	}
-
-	setCacheData(key, data) {
-		return this.config().set(key, data)
-	}
-
-	getCacheData(key) {
-		return this.config().get(key)
-	}
 	setCacheData(key, data) {
 		return this.config().set(key, data)
 	}
@@ -36,6 +21,9 @@ class RedisClient {
 const redis = new RedisClient()
 redis.setCacheData("name", "max cavalera").then(console.log).catch(console.error)
 redis.getCacheData("name").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("age", "25").then(console.log).catch(console.error)
+redis.getCacheData("age").then(console.log).catch(console.error).finally(() => process.exit(0))
 
 redis.setCacheData("address", "brazil").then(console.log).catch(console.error)
 redis.getCacheData("address").then(console.log).catch(console.error).finally(() => process.exit(0))
