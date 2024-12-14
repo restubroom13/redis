@@ -19,20 +19,6 @@ class RedisClient {
 }
 
 const redis = new RedisClient()
-redis.setCacheData("name", "max cavalera").then(console.log).catch(console.error)
-redis.getCacheData("name").then(console.log).catch(console.error).finally(() => process.exit(0))
-
-redis.setCacheData("age", "25").then(console.log).catch(console.error)
-redis.getCacheData("age").then(console.log).catch(console.error).finally(() => process.exit(0))
-
-redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
-redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
-
-redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
-redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
-
-redis.setCacheData("placeofbirt", "jakarta").then(console.log).catch(console.error)
-redis.getCacheData("placeofbirt").then(console.log).catch(console.error).finally(() => process.exit(0))
 
 redis.setCacheData("country", "indonesia").then(console.log).catch(console.error)
 redis.getCacheData("country").then(console.log).catch(console.error).finally(() => process.exit(0))
@@ -57,3 +43,15 @@ redis.getCacheData("ktp").then(console.log).catch(console.error).finally(() => p
 
 redis.setCacheData("schols", "ratujaya").then(console.log).catch(console.error)
 redis.getCacheData("schols").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("name", "max cavalera").then(console.log).catch(console.error)
+redis.getCacheData("name").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("age", "25").then(console.log).catch(console.error)
+redis.getCacheData("age").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
+redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
+redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
