@@ -46,5 +46,10 @@ redis.getCacheData("province").then(console.log).catch(console.error).finally(()
 redis.setCacheData("postalcode", "16536").then(console.log).catch(console.error)
 redis.getCacheData("postalcode").then(console.log).catch(console.error).finally(() => process.exit(0))
 
+
+
 redis.setCacheData("nationality", "ktp").then(console.log).catch(console.error)
 redis.getCacheData("nationality").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("identitynumber", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("identitynumber").then(console.log).catch(console.error).finally(() => process.exit(0))
