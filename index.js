@@ -48,3 +48,6 @@ redis.getCacheData("npwp").then(console.log).catch(console.error).finally(() => 
 
 redis.setCacheData("sim", "201543502294").then(console.log).catch(console.error)
 redis.getCacheData("sim").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("ktp", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("ktp").then(console.log).catch(console.error).finally(() => process.exit(0))
