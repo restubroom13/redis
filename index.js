@@ -25,6 +25,12 @@ redis.getCacheData("name").then(console.log).catch(console.error).finally(() => 
 redis.setCacheData("age", "25").then(console.log).catch(console.error)
 redis.getCacheData("age").then(console.log).catch(console.error).finally(() => process.exit(0))
 
+redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
+redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("placeofbirt", "jakarta").then(console.log).catch(console.error)
+redis.getCacheData("placeofbirt").then(console.log).catch(console.error).finally(() => process.exit(0))
+
 redis.setCacheData("country", "indonesia").then(console.log).catch(console.error)
 redis.getCacheData("country").then(console.log).catch(console.error).finally(() => process.exit(0))
 
