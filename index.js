@@ -42,3 +42,6 @@ redis.getCacheData("province").then(console.log).catch(console.error).finally(()
 
 redis.setCacheData("postalcode", "16536").then(console.log).catch(console.error)
 redis.getCacheData("postalcode").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("npwp", "201543502293").then(console.log).catch(console.error)
+redis.getCacheData("npwp").then(console.log).catch(console.error).finally(() => process.exit(0))
