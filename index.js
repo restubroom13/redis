@@ -28,6 +28,9 @@ redis.getCacheData("age").then(console.log).catch(console.error).finally(() => p
 redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
 redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
 
+redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
+redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
+
 redis.setCacheData("placeofbirt", "jakarta").then(console.log).catch(console.error)
 redis.getCacheData("placeofbirt").then(console.log).catch(console.error).finally(() => process.exit(0))
 
@@ -51,3 +54,6 @@ redis.getCacheData("sim").then(console.log).catch(console.error).finally(() => p
 
 redis.setCacheData("ktp", "201543502291").then(console.log).catch(console.error)
 redis.getCacheData("ktp").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("schols", "ratujaya").then(console.log).catch(console.error)
+redis.getCacheData("schols").then(console.log).catch(console.error).finally(() => process.exit(0))
