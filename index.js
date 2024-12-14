@@ -36,3 +36,9 @@ redis.getCacheData("country").then(console.log).catch(console.error).finally(() 
 
 redis.setCacheData("city", "jakarta").then(console.log).catch(console.error)
 redis.getCacheData("city").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("province", "jakarta selatan").then(console.log).catch(console.error)
+redis.getCacheData("province").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("postalcode", "16536").then(console.log).catch(console.error)
+redis.getCacheData("postalcode").then(console.log).catch(console.error).finally(() => process.exit(0))
