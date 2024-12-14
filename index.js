@@ -19,17 +19,6 @@ class RedisClient {
 }
 
 const redis = new RedisClient()
-redis.setCacheData("name", "max cavalera").then(console.log).catch(console.error)
-redis.getCacheData("name").then(console.log).catch(console.error).finally(() => process.exit(0))
-
-redis.setCacheData("age", "25").then(console.log).catch(console.error)
-redis.getCacheData("age").then(console.log).catch(console.error).finally(() => process.exit(0))
-
-redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
-redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
-
-redis.setCacheData("placeofbirt", "jakarta").then(console.log).catch(console.error)
-redis.getCacheData("placeofbirt").then(console.log).catch(console.error).finally(() => process.exit(0))
 
 redis.setCacheData("address", "brazil").then(console.log).catch(console.error)
 redis.getCacheData("address").then(console.log).catch(console.error).finally(() => process.exit(0))
@@ -48,6 +37,28 @@ redis.getCacheData("postalcode").then(console.log).catch(console.error).finally(
 
 redis.setCacheData("npwp", "201543502293").then(console.log).catch(console.error)
 redis.getCacheData("npwp").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+
+redis.setCacheData("sim", "201543502294").then(console.log).catch(console.error)
+redis.getCacheData("sim").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("ktp", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("ktp").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("schols", "ratujaya").then(console.log).catch(console.error)
+redis.getCacheData("schols").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("name", "max cavalera").then(console.log).catch(console.error)
+redis.getCacheData("name").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("age", "25").then(console.log).catch(console.error)
+redis.getCacheData("age").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
+redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("dateofbirth", "1995-08-17").then(console.log).catch(console.error)
+redis.getCacheData("dateofbirth").then(console.log).catch(console.error).finally(() => process.exit(0))
 
 redis.setCacheData("nationality", "ktp").then(console.log).catch(console.error)
 redis.getCacheData("nationality").then(console.log).catch(console.error).finally(() => process.exit(0))
