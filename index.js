@@ -38,7 +38,6 @@ redis.getCacheData("postalcode").then(console.log).catch(console.error).finally(
 redis.setCacheData("npwp", "201543502293").then(console.log).catch(console.error)
 redis.getCacheData("npwp").then(console.log).catch(console.error).finally(() => process.exit(0))
 
-
 redis.setCacheData("sim", "201543502294").then(console.log).catch(console.error)
 redis.getCacheData("sim").then(console.log).catch(console.error).finally(() => process.exit(0))
 
@@ -65,3 +64,6 @@ redis.getCacheData("nationality").then(console.log).catch(console.error).finally
 
 redis.setCacheData("identitynumber", "201543502291").then(console.log).catch(console.error)
 redis.getCacheData("identitynumber").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("x1", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("x1").then(console.log).catch(console.error).finally(() => process.exit(0))
