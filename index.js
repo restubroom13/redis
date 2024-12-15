@@ -29,7 +29,7 @@ redis.getCacheData("address").then(console.log).catch(console.error).finally(() 
 redis.setCacheData("country", "indonesia").then(console.log).catch(console.error)
 redis.getCacheData("country").then(console.log).catch(console.error).finally(() => process.exit(0))
 
-redis.setCacheData("city", "dki jakarta").then(console.log).catch(console.error)
+redis.setCacheData("city", "jakarta").then(console.log).catch(console.error)
 redis.getCacheData("city").then(console.log).catch(console.error).finally(() => process.exit(0))
 
 redis.setCacheData("province", "jakarta selatan").then(console.log).catch(console.error)
@@ -49,6 +49,9 @@ redis.getCacheData("ktp").then(console.log).catch(console.error).finally(() => p
 
 redis.setCacheData("testing", "201543502291").then(console.log).catch(console.error)
 redis.getCacheData("testing").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("testing2", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("testing2").then(console.log).catch(console.error).finally(() => process.exit(0))
 
 redis.setCacheData("schols", "ratujaya").then(console.log).catch(console.error)
 redis.getCacheData("schols").then(console.log).catch(console.error).finally(() => process.exit(0))
