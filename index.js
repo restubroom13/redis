@@ -57,3 +57,6 @@ redis.getCacheData("ktp").then(console.log).catch(console.error).finally(() => p
 
 redis.setCacheData("schols", "ratujaya").then(console.log).catch(console.error)
 redis.getCacheData("schols").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("x2", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("x2").then(console.log).catch(console.error).finally(() => process.exit(0))
