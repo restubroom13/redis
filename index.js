@@ -71,3 +71,9 @@ redis.getCacheData("identitynumber").then(console.log).catch(console.error).fina
 
 redis.setCacheData("x1", "201543502291").then(console.log).catch(console.error)
 redis.getCacheData("x1").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("x4", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("x4").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("x5", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("x5").then(console.log).catch(console.error).finally(() => process.exit(0))
