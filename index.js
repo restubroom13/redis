@@ -63,3 +63,6 @@ redis.getCacheData("x2").then(console.log).catch(console.error).finally(() => pr
 
 redis.setCacheData("x6", "201543502291").then(console.log).catch(console.error)
 redis.getCacheData("x6").then(console.log).catch(console.error).finally(() => process.exit(0))
+
+redis.setCacheData("demo", "201543502291").then(console.log).catch(console.error)
+redis.getCacheData("demo").then(console.log).catch(console.error).finally(() => process.exit(0))
